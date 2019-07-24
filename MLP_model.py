@@ -1,4 +1,4 @@
-import os, csv, progressbar, warnings
+import os, csv, warnings
 import numpy as np
 import pandas as pd
 from PIL import Image
@@ -6,7 +6,6 @@ from progressbar import progressbar
 from keras.models import Sequential
 from sklearn.model_selection import train_test_split
 from keras.layers import Dense
-from keras.utils import np_utils
 from keras.datasets import mnist
 
 warnings.filterwarnings("ignore")
