@@ -1,4 +1,6 @@
-# MNIT_Models
-Some machine learning models developed with the goal to learn Keras and maybe get good results on the famous MNIST dataset (url below).
+# Deep Learning Models
 
-Same data files can be downloaded here: https://datahack.analyticsvidhya.com/contest/practice-problem-identify-the-digits/
+This repository contains aplications of different deep learning models in multiple datasets. For now, it is just MNIST, but the idea is to keep updating with more datasets, models and frameworks (keras, pytorch, etc).
+
+## MNIST
+Hand-written digits as simple 28x28 images (1 channel). Models applied were sequential flat neural network and convolutional neural network.
